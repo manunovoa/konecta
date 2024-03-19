@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  color: white;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 3vmin);
+  color: white;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.empleados {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  gap: 2%;
+}
+
+.buttons{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: transparent;
+
+}
+
+.button{
+  width: 40%;
+  background-color: black;
+  border: none;
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer;
+  border-radius: 4px; 
+  font-weight: 30px;
+}
